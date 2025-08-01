@@ -1,0 +1,9 @@
+{
+  "platforms": ["apple", "android", "web"],
+  "apple": {
+    "modules": ["ReactNativeMediapackModule"]
+  },
+  "android": {
+    "modules": ["understudios.mediapack.ReactNativeMediapackModule"]
+  }
+}
