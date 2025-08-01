@@ -1,6 +1,6 @@
 {
   "name": "react-native-mediapack",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "react-native-mediapack is a react native package that let's you work with audio and videos files",
   "main": "build/index.js",
   "types": "build/index.d.ts",
@@ -19,15 +19,18 @@
     "react-native",
     "expo",
     "react-native-mediapack",
-    "ReactNativeMediapack"
+    "ReactNativeMediapack",
+    "understudios",
+    "audio",
+    "video"
   ],
-  "repository": "https://github.com/Janjiran/react-native-mediapack",
+  "repository": "https://github.com/UnderStudios/react-native-mediapack",
   "bugs": {
-    "url": "https://github.com/Janjiran/react-native-mediapack/issues"
+    "url": "https://github.com/UnderStudios/react-native-mediapack/issues"
   },
   "author": "Jan (Honza) Jiráň <jan.jiran@understudios.org> (https://github.com/Janjiran)",
   "license": "MIT",
-  "homepage": "https://github.com/Janjiran/react-native-mediapack#readme",
+  "homepage": "https://github.com/UnderStudios/react-native-mediapack#readme",
   "dependencies": {},
   "devDependencies": {
     "@types/react": "~19.0.0",

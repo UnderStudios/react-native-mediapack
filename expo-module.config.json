@@ -1,7 +1,7 @@
 {
   "platforms": ["apple", "android", "web"],
   "apple": {
-    "modules": ["ReactNativeMediapackModule"]
+    "modules": ["ReactNativeMediapackModule", "ReactNativeMediapackVideoModule"]
   },
   "android": {
     "modules": ["understudios.mediapack.ReactNativeMediapackModule"]

@@ -1,6 +1,8 @@
 import { useEvent } from 'expo';
-import ReactNativeMediapack, { ReactNativeMediapackView } from 'react-native-mediapack';
+import ReactNativeMediapack, { ReactNativeMediapackView, Video } from 'react-native-mediapack';
 import { Button, SafeAreaView, ScrollView, Text, View } from 'react-native';
+
+new Video().extractAudio('test12').then(console.log).catch(console.error);
 
 export default function App() {
   const onChangePayload = useEvent(ReactNativeMediapack, 'onChange');
